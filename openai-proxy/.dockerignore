@@ -1,0 +1,47 @@
+# Зависимости
+node_modules
+npm-debug.log*
+
+# Логи
+logs
+*.log
+
+# Временные файлы
+.tmp
+.temp
+
+# IDE и редакторы
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+
+# Docker
+Dockerfile*
+docker-compose*
+.dockerignore
+
+# Документация
+README.md
+*.md
+
+# Тесты
+test/
+tests/
+__tests__/
+
+# Конфигурация разработки
+.env.local
+.env.development
+
+# Прочие файлы
+Makefile
+

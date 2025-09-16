@@ -1,0 +1,58 @@
+# Environment files
+*.env
+.env
+.env.*
+**/.env
+**/.env.*
+.env.local
+.env.development
+.env.production
+.env.test
+.env.staging
+
+# Node.js
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+go.work.sum
+
+# Build artifacts
+/bin/
+**/bin/
+/dist/
+**/dist/
+/build/
+**/build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+**/logs/

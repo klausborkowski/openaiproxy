@@ -1,0 +1,19 @@
+{
+    "name": "openai-proxy-cache-rate-limit",
+    "version": "1.0.0",
+    "description": "Node.js HTTP service that forwards OpenAI API requests to a proxy server with rate limiting and caching.",
+    "type": "module",
+    "main": "src/server.js",
+    "engines": {
+      "node": ">=18.17.0"
+    },
+    "scripts": {
+      "start": "node src/server.js",
+      "dev": "NODE_ENV=development node src/server.js"
+    },
+    "dependencies": {
+      "dotenv": "16.4.5",
+      "morgan": "1.10.0"
+    }
+  }
+  
